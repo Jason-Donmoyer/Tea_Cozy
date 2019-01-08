@@ -1,0 +1,110 @@
+/********** MAIN STYLES **********/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: #000;
+    opacity: 0.9;
+    box-sizing: border-box;
+}
+
+/********** BRAND AND NAVBAR **********/
+
+
+#brand {
+    /* display: flex; */
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#main-nav {
+    background-color: none;;
+    /* display: flex; */
+}
+
+#navbar { 
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.main-logo {
+    height: 50px;
+}
+
+.navbar-items {
+    display: flex;
+    
+}
+
+.left-nav {
+    padding-top: 9px;
+}
+
+.right-nav {
+    margin-left: auto;
+}
+
+.navbar-items li {
+    padding-right: 25px;
+    /* padding-top: 20px; */
+}
+
+.navbar-items li:last-child {
+    padding-right: 10px;
+}
+
+.navbar-items li a {
+    color: seashell;
+}
+
+/********** MAIN CONTENT **********/
+
+/* #main-content-container {
+    display: flex;
+    height: 700px;
+    margin: 0 auto;
+} */
+
+#main-banner {
+    width: 1200px;
+    color: seashell;
+    position: relative;
+    background-color: #000;
+    height: 100px;
+    top: 300px;
+    text-align: center;
+}
+
+#main-banner h2 {
+    padding: 14px 0;
+}
+
+#main-content {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    top: 100px;;
+    height: 700px;
+    width: 90%;
+    background-image: url('images/img-mission-background.jpg');
+    background-repeat: no-repeat;
+}
+
