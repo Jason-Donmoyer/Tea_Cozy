@@ -5,36 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Tea Cozy Landing Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <!-- <script src="main.js"></script> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="resources/style/main.css" />
 </head>
 <body>
+
+    <!-- HEADER -->
     
-    <header id="brand">
+    <header class="container">
+        <img id="logo" src="resources/images/img-tea-cozy-logo.png" alt="Tea Cozy Logo">
         <nav id="main-nav">
-            <ul id="navbar">
-                <nav class="navbar-items left-nav">
-                    <li>
-                        <a href="#main-logo"><img src="images/img-tea-cozy-logo.png" alt="Tea Cozy Logo"></a>
-                    </li>
-                </nav>
-                <nav class="navbar-items right-nav">
-                    <li><a href="#mission">Mission</a></li>
-                    <li><a href="#featured-tea">Featured Tea</a></li>
-                    <li><a href="#locations">Locations</a></li>
-                </nav>
-            </ul>
+            <span class="nav-item"><a href="#mission">Mission</a></span>
+            <span class="nav-item"><a href="#featured">Featured Tea</a></span>
+            <span class="nav-item"><a href="#location">Locations</a></span>
         </nav>
     </header>
-    <!-- <div id="main-content-container"> -->
-        
-        <div id="main-content">
-            <div id="main-banner">
+    
+    <!-- MAIN -->
+    
+    <div id="main-content">
+        <!-- MISSION -->
+        <div id="mission" class="container">
+            <div class="flex-content">
                 <h2>Our Mission</h2>
                 <h4>Handpicked, Artisinally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
-             </div>
+            </div>
         </div>
-    <!-- </div> -->
+        <!-- FEATURED -->
+        <div id="featured">
+            <h2>Tea Of The Month</h2>
+            <h4>What's Steeping At Tea Cozy?</h4>
+            <div class="container flex-items">
+                <div class="flex-item">
+                    <img src="resources/images/img-berryblitz.jpg" alt="Berry Blitz Tea">
+                    <span>Fall Berry Blitz Tea</span>
+                </div>
+                <div class="flex-item"></div>
+                <div class="flex-item"></div>
+                <div class="flex-item"></div>
+                <div class="flex-item"></div>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
